@@ -7,7 +7,7 @@ var onRun = function(context) {
   try {
     var path = shared.getCurrentDirectory(doc);
 
-    var command = NSString.stringWithFormat_("\\cd \"%@\" && \\git pull", path);
+    var command = NSString.stringWithFormat_("\\cd \"%@\" && \\git pull origin master", path);
     var message = shared.exec(command);
     doc.showMessage("Changes pulled");
   } catch (e) {
