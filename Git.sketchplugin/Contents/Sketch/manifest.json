@@ -22,6 +22,12 @@
       "script": "Push.cocoascript",
     },
     {
+      "name": "Pull",
+      "identifier": "pull",
+      "shortcut": "cmd alt ctrl l",
+      "script": "Pull.cocoascript",
+    },
+    {
       "name": "New Branch",
       "identifier": "branch",
       "shortcut": "cmd alt ctrl n",
