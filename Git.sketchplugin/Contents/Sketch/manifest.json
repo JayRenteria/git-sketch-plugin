@@ -1,11 +1,11 @@
 {
   "name": "Git",
   "description": "Plugin to handle versioning in git",
-  "author": "Mathieu Dutour",
-  "authorEmail" : "mathieu@dutour.me",
-  "homepage": "http://github.com/mathieudutour/git-sketch-plugin",
-  "version": "0.2.3",
-  "identifier": "me.dutour.mathieu.git-plugin",
+  "author": "Hermes",
+  "authorEmail" : "admin@hermesdevelopment.com",
+  "homepage": "http://github.com/jayrenteria/git-sketch-plugin",
+  "version": "0.2.4",
+  "identifier": "me.renteria.jay.git-plugin",
   "compatibleVersion": 3,
   "bundleVersion": 2,
   "commands": [
@@ -65,6 +65,7 @@
     "items": [
       "commit",
       "push",
+      "pull",
       "branch",
       "checkout",
       "export",
